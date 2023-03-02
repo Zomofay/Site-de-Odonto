@@ -1,0 +1,74 @@
+body {
+    background-image: url('banner.jpg');
+	background-repeat: no-repeat;
+	background-size: 130%;
+}	
+img {
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+}
+.titulo {
+    color:rgb(0, 0, 0);
+    font-size:40px;
+    font-family: mightsilly;
+	transition: background-color 0.5s ease-in-out;
+	padding: 10px;
+	border-radius: 100px;
+	display: inline-block;
+	position: relative;
+	left: -7px;
+	top: -30px;
+}
+.titulo:hover {
+	background-color: #1680a0;
+	box-shadow: 0 0 50px #1680a0;
+}
+#paragrafo {
+    color:rgb(0, 0, 0);
+    font-size:30px;
+	text-align:center;
+    font-family:Alacarte;
+	transition: background-color 0.5s ease-in-out;
+	padding: 10px;
+	border-radius: 100px;
+	display: inline-block;
+}
+#paragrafo:hover {
+	background-color: #1680a0;
+	box-shadow: 0 0 30px #1680a0;
+}	
+
+#paragrafo2 {
+	color:rgb(0, 0, 0);
+    font-size:20px;
+	text-align: right;
+    font-family :Alacarte;
+	transition: background-color 0.5s ease-in-out;
+	padding: 10px;
+	border-radius: 100px;
+	display: inline-block;
+}
+#paragrafo2:hover {
+	background-color: #1680a0;
+	box-shadow: 0 0 30px #1680a0;
+
+}
+.formulario {
+  width: 220px;
+  height: 200px;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #1680a0;
+  border-radius: 10px;
+}
+.formulario input[type="text"],
+.formulario input[type="password"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
+.formulario:hover {
+  box-shadow: 10px 10px 40px 10px #1680a0;
+}
