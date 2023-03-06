@@ -11,33 +11,27 @@ img {
 .titulo {
     color:rgb(0, 0, 0);
     font-size:40px;
-    font-family: mightsilly;
-	transition: background-color 0.5s ease-in-out;
+    font-family: Alacarte;
 	padding: 10px;
-	border-radius: 100px;
 	display: inline-block;
 	position: relative;
 	left: -7px;
 	top: -30px;
 }
-.titulo:hover {
-	background-color: #1680a0;
-	box-shadow: 0 0 50px #1680a0;
-}
+
 #paragrafo {
     color:rgb(0, 0, 0);
-    font-size:30px;
+    font-size:20px;
 	text-align:center;
     font-family:Alacarte;
 	transition: background-color 0.5s ease-in-out;
 	padding: 10px;
 	border-radius: 100px;
 	display: inline-block;
+	position:relative;
+	left: -200px;
+	top: 0px;
 }
-#paragrafo:hover {
-	background-color: #1680a0;
-	box-shadow: 0 0 30px #1680a0;
-}	
 
 #paragrafo2 {
 	color:rgb(0, 0, 0);
@@ -48,19 +42,40 @@ img {
 	padding: 10px;
 	border-radius: 100px;
 	display: inline-block;
+	position: relative;
+	left: 550px;
+	top: -20px;
 }
 #paragrafo2:hover {
-	background-color: #1680a0;
-	box-shadow: 0 0 30px #1680a0;
+	background-color: #0099ff;
+	box-shadow: 0 0 30px #0099ff;
 
 }
-.formulario {
+#paragrafo3 {
+	color:rgb(0, 0, 0);
+    font-size:20px;
+	text-align: right;
+    font-family :Alacarte;
+	transition: background-color 0.5s ease-in-out;
+	padding: 10px;
+	border-radius: 100px;
+	display: inline-block;
+	position: relative;
+	left: 110px;
+	top: 24px;
+}
+#paragrafo3:hover {
+	background-color: #0099ff;
+	box-shadow: 0 0 30px #0099ff;
+}
+	.formulario {
   width: 220px;
   height: 200px;
   padding: 20px;
   margin: 10px;
-  border: 2px solid #1680a0;
+  border: 2px solid #1680a000;
   border-radius: 10px;
+  transition: background-color 0.5s ease-in-out;
 }
 .formulario input[type="text"],
 .formulario input[type="password"] {
@@ -70,5 +85,38 @@ img {
     width: 80%;
 }
 .formulario:hover {
-  box-shadow: 10px 10px 40px 10px #1680a0;
+  box-shadow: 10px 10px 40px 10px #0099ff;
+}
+nav {
+	background-color: #04357500;
+	position: relative;
+	top: -238px;
+}
+  
+.menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+  
+.menu li {
+	height: 50px;
+}
+  
+.menu a {
+	display: block;
+	text-align: center;
+	color: #2343d4;
+	text-decoration: none;
+	padding: 0 10px;
+	line-height: 50px;
+}
+  
+.menu a:hover {
+	background-color: #286bcf00;
+	box-shadow: 10px 10px 40px 10px #0099ff;
+	border-radius: 100px;
 }
