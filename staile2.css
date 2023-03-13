@@ -100,23 +100,59 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-}
-  
-.menu li {
+  }
+	
+  .menu li {
+	position: relative;
 	height: 50px;
-}
-  
-.menu a {
+  }
+	
+  .menu a {
 	display: block;
 	text-align: center;
 	color: #2343d4;
 	text-decoration: none;
 	padding: 0 10px;
 	line-height: 50px;
-}
-  
-.menu a:hover {
+  }
+	
+  .menu a:hover {
 	background-color: #286bcf00;
 	box-shadow: 10px 10px 40px 10px #0099ff;
 	border-radius: 100px;
-}
+  }
+  
+  .menu ul {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 50px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 200px;
+	background-color: #fff;
+	border: 3px solid #1e9aec;
+  }
+  
+  .menu li:hover > ul {
+	display: block;
+  }
+  
+  .menu ul li {
+	height: 40px;
+	line-height: 40px;
+  }
+  
+  .menu ul a {
+	display: block;
+	color: #2343d4;
+	text-decoration: none;
+	padding: 0 10px;
+  }
+  
+  .menu ul a:hover {
+	background-color: #286bcf00;
+	box-shadow: none;
+	border-radius: 0;
+  }

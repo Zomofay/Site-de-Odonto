@@ -68,5 +68,15 @@
 				<input type="submit" value="Login">
 			</form>
 		</div>
+		<script>
+			var menu = document.querySelector('.menu');
+			var submenu = document.querySelector('.submenu');
+			menu.children[2].addEventListener('mouseover', function() {
+				submenu.style.display = 'block';
+			});
+			menu.children[2].addEventListener('mouseout', function() {
+				submenu.style.display = 'none';
+			});
+		</script>
 	</body>
 </html>
