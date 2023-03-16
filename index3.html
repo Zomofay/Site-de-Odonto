@@ -46,19 +46,7 @@
 		<h1 class="titulo">Drª.Thallyta Welkson</h1>
 		<p id="paragrafo">Clínica Odontológica</p>
 		<p id="paragrafo2">Sempre cuidando bem da sua saúde e estética bocal.</p>
-		<p id="paragrafo3">Faça o seu cadastro e agende já o seu horario.</p>
-		<nav>
-			<ul class="menu">
-			  <li><a href="#">Início</a></li>
-			  <li><a href="#">Contatos</a></li>
-			  <li><a href="#">Redes Sociais</a></li>
-				<ul class="submenu">
-					<li><a href="#">Facebook</li>
-					<li><a href="#">Instragram</a></li>
-					<li><a href="#">Twitter</a></li>
-				</ul>
-			</ul>
-		  </nav>		  
+		<p id="paragrafo3">Faça o seu cadastro e agende já o seu horario.</p>		  
 		<div class="formulario">
 			<form>
 				<label for="usarname">Nome de usuário:</label>
@@ -68,15 +56,19 @@
 				<input type="submit" value="Login">
 			</form>
 		</div>
-		<script>
-			var menu = document.querySelector('.menu');
-			var submenu = document.querySelector('.submenu');
-			menu.children[2].addEventListener('mouseover', function() {
-				submenu.style.display = 'block';
-			});
-			menu.children[2].addEventListener('mouseout', function() {
-				submenu.style.display = 'none';
-			});
-		</script>
+		<div class="dropdown">
+			<a href="#">
+				Explore
+				<img src="chevron.png" />
+			</a>
+			<div class="menu">
+				<a href="#">Discover</a>
+				<a href="#">Popular</a>
+				<a href="#">Leaderboard</a>
+				<a href="#">Challenges</a>
+				<a href="#">Videos</a>
+				<a href="#">Blog</a>
+			</div>
+		</div>
 	</body>
 </html>
