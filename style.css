@@ -6,7 +6,7 @@ body {
 img {
 	width: 80px;
 	height: 80px;
-	margin-top: 10px;
+	margin-top: 50px;
 }
 .titulo {
     color:rgb(0, 0, 0);
@@ -16,7 +16,7 @@ img {
 	display: inline-block;
 	position: relative;
 	left: -7px;
-	top: -30px;
+	top: -26px;
 }
 
 #paragrafo {
@@ -30,7 +30,7 @@ img {
 	display: inline-block;
 	position:relative;
 	left: -200px;
-	top: 0px;
+	top: -8px;
 }
 
 #paragrafo2 {
@@ -98,7 +98,7 @@ img {
   border-color: #b8ecfc;
 }
 nav {
-	background-color: #04357500;
+	background-color: #043575;
 	position: relative;
 	top: -238px;
 }
@@ -148,7 +148,7 @@ nav {
 	position: relative;
 	width: 13 13px;
 	right: 25px;
-	top: -5px;
+	top: -23px;
 	transform: scale(0.4);
 }
 .dropdown:hover .menu {
