@@ -36,34 +36,25 @@ img {
 
 #paragrafo2 {
 	color:rgb(0, 0, 0);
-    font-size:20px;
-	text-align: right;
-    font-family :Alacarte;
-	transition: background-color 0.5s ease-in-out;
-	padding: 10px;
-	border-radius: 100px;
-	display: inline-block;
+    font-size:100px;
+    font-family :Tilt Neon;
 	position: relative;
-	left: 550px;
-	top: -20px;
-}
-#paragrafo2:hover {
-	background-color: #0099ff;
-	box-shadow: 0 0 30px #0099ff;
-
+	left: -50px;
+	top: -190px;
+	text-align: right;
 }
 #paragrafo3 {
 	color:rgb(0, 0, 0);
     font-size:20px;
-	text-align: right;
-    font-family :Alacarte;
+	text-align: left;
+    font-family :Tilt Neon;
 	transition: background-color 0.5s ease-in-out;
 	padding: 10px;
 	border-radius: 100px;
 	display: inline-block;
 	position: relative;
-	left: 110px;
-	top: 24px;
+	left: 0px;
+	top: -455px;
 }
 #paragrafo3:hover {
 	background-color: #0099ff;
@@ -123,7 +114,7 @@ nav {
 	color: #4e4e4e;
 	text-decoration: none;
 	padding: 0 10px;
-	line-height: 50px;
+	line-height: 25px;
   }
 	
   .menu a:hover {
